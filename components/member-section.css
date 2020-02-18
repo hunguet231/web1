@@ -1,0 +1,16 @@
+/*================Member-section===============*/
+
+.about-team img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.detail-team {
+    color: dodgerblue;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 30px;
+}

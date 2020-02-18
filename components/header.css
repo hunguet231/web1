@@ -1,0 +1,154 @@
+/*======================HEADER=====================*/
+
+nav {
+    padding: 10px 0;
+    min-height: 50px;
+    display: block;
+    width: 100%;
+}
+
+fixed-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0 0;
+    background-color: #fff !important;
+    border-bottom: 1px solid #eee;
+}
+
+.container {
+    display: block;
+    width: 80%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 3px 1px 5px #5a5a5a;
+    float: left;
+    animation-delay: 5s;
+}
+
+.logo:hover {
+    transform: translate(0, 3px);
+}
+
+.main-nav {
+    position: relative;
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: -50px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.main-nav li a:hover {
+    color: rgb(194, 194, 194);
+}
+
+.main-nav li a::after {
+    content: "";
+    display: block;
+    background-color: #6195FF;
+    width: 0%;
+    height: 2px;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.main-nav li a:hover:after {
+    width: 100%;
+}
+
+.clearfix::after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #1c1d21;
+}
+
+header {
+    height: 100vh;
+    position: relative;
+}
+
+header .row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 1140px;
+    max-height: 500px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+}
+
+.heading-main-text {
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    font-size: 54px;
+}
+
+.sub-heading-text {
+    margin: 0 0 50px;
+    width: 100%;
+}
+
+.btn {
+    padding: 20px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: opacity 0.4s;
+    margin: 10px;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-blue {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}

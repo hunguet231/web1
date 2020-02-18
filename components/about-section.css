@@ -1,0 +1,80 @@
+/*==========================ABOUT-SECTON==================*/
+
+h2 {
+    font-family: sans-serif;
+    color: black !important;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2::after {
+    content: ' ';
+    background-color: dodgerblue;
+    height: 5px;
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 130%;
+}
+
+.about-section .col {
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    height: 400px;
+    text-align: center;
+}
+
+.about-section .col a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.about-section {
+    width: 70%;
+    margin: 0 auto;
+    height: 700px;
+}
+
+.about-section p {
+    text-align: center;
+    justify-content: center;
+}
+
+.about-section .col .fa {
+    color: dodgerblue;
+    font-size: 100px;
+    margin: 20px 0 50px;
+}
+
+.about-section .col::after {
+    content: '';
+    background-color: #1c1d21;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    transition: 0.2s width;
+}
+
+.about-section .col:hover::after {
+    width: 100%;
+}
+
+.about-section .col:hover h3 {
+    color: #fff;
+}
+
+.about-section .col {
+    position: relative;
+}
