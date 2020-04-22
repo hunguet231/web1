@@ -1,4 +1,4 @@
-# Web CSS (CodersX CSS Project)
+# Web 1 (CodersX CSS Project)
 A simple website using HTML,CSS.
 # Screenshot
 ![Web](http://hungnguyen231.tk/photo/codersx-web1-css.png)
