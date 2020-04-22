@@ -1,7 +1,8 @@
-# Web 1 - HungUET231
-
+# Web CSS (CodersX CSS Project)
+A simple website using HTML,CSS.
+# Screenshot
 ![Web](http://hungnguyen231.tk/photo/codersx-web1-css.png)
-
-> !No responsive
-
-Link : http://hungnguyen231.tk/web1/
+# More information
+No responsive
+# Link demo
+Visit : http://hungnguyen231.tk/web1/
